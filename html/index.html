@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko"> <!-- 문서 언어 설정: 한국어 -->
+  <head>
+    <meta charset="UTF-8" /> <!-- 문자 인코딩: UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- 반응형 웹을 위한 뷰포트 설정 -->
+    <title>풀페이지 스크롤</title> <!-- 브라우저 탭 제목 -->
+    <link rel="stylesheet" href="../css/index.css"/> <!-- 외부 CSS 파일 연결 -->
+  </head>
+  <body>
+    <!-- ========================== 헤더 영역 ========================== -->
+    <header>
+      <div>
+        <h1>Tripsiec</h1> <!-- 사이트 로고 또는 제목 -->
+        <nav> <!-- 네비게이션 메뉴 -->
+          <a href="#">Home</a>
+          <a href="#">Services</a>
+          <a href="#">Promo</a>
+          <a href="#">About Us</a>
+        </nav>
+        <button></button> <!-- 필요 시 햄버거 메뉴나 기능 버튼용 (현재 비어 있음) -->
+      </div>
+    </header>
+
+    <!-- ========================== Section 1: 인트로 ========================== -->
+    <section id="section1">
+      <!-- 배경 이미지 슬라이더 -->
+      <div class="background-slider">
+        <!-- 슬라이드 1 (필요시 여러 개 추가 가능) -->
+        <div class="slide" style="background-image: url('../images/home_bg0.jpg');"></div>
+      </div>
+
+      <!-- 어두운 반투명 오버레이 (가독성 향상용) -->
+      <div class="overlay"></div>
+
+      <!-- 인트로 텍스트 콘텐츠 -->
+      <div class="section1-content">
+        <h1 class="section1-title">The Easiest Way to Plan Your Dream Trip</h1>
+        <p class="section1-description">
+          Book your travel and transportation service with us and enjoy a hassle-free and memorable journey
+        </p>
+        <button class="section1-button">자세히 보기</button> <!-- CTA 버튼 -->
+      </div>
+    </section>
+
+    <!-- ========================== Section 2 ========================== -->
+    <section id="section2">
+      Section 2 <!-- 현재 텍스트만 있음, 내용 추가 필요 -->
+    </section>
+
+    <!-- ========================== Section 3 ========================== -->
+    <section id="section3">
+      Footer <!-- 하단 섹션으로 사용 중 (내용 구성 필요) -->
+    </section>
+
+    <!-- ========================== 섹션 인디케이터 (오른쪽 점들) ========================== -->
+    <div class="indicator">
+      <div class="dot active"></div> <!-- 현재 활성화된 섹션 표시 -->
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+
+    <!-- ========================== 푸터 (비어 있음) ========================== -->
+    <footer></footer>
+
+    <!-- ========================== 외부 JavaScript 연결 ========================== -->
+    <script src="../js/index.js"></script> <!-- 스크롤 인터랙션 및 섹션 전환 기능 포함 -->
+  </body>
+</html>

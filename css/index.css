@@ -1,0 +1,177 @@
+/* === 전체 기본 스타일 초기화 === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HTML과 BODY 기본 설정 */
+html, body {
+    height: 100%;
+    overflow: hidden; /* 수직 스크롤 막기 (섹션 단위 스크롤을 위한 설정) */
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+/* === 헤더 영역 설정 === */
+header {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    width: 100%;
+    z-index: 3; /* 다른 요소 위에 표시 */
+}
+
+/* 헤더 내부 컨테이너 정렬 */
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* 로고 또는 제목 텍스트 */
+header div h1 {
+    font-size: 20pt;
+    font-weight: 700;
+    color: white;
+}
+
+/* 네비게이션 링크 정렬 */
+header div nav {
+    width: 80%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+/* 네비게이션 링크 스타일 */
+header div nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 12pt;
+    font-weight: lighter;
+}
+
+/* === 공통 섹션 스타일 === */
+section {
+    height: 100vh; /* 화면 전체 높이 */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: white;
+    transition: background 0.5s ease;
+}
+
+/* === Section 1 (인트로 섹션) === */
+#section1 {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center;     /* 세로 중앙 정렬 */
+}
+
+/* === 배경 이미지 슬라이더 === */
+.background-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    transition: transform 1s ease-in-out; /* 슬라이드 전환 애니메이션 */
+}
+
+/* 각 개별 슬라이드 */
+.slide {
+    width: 100vw;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0; /* 슬라이드가 줄어들지 않도록 고정 */
+}
+
+/* === 블러 오버레이 === */
+.overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* 반투명 어두운 레이어 */
+    z-index: 1; /* 배경 슬라이드 위, 텍스트 아래 */
+}
+
+/* === 실제 콘텐츠는 오버레이 위에 표시 === */
+.section1-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+}
+
+/* 타이틀 텍스트 */
+.section1-title {
+    font-size: 60pt;
+    margin: 0 10%;
+}
+
+/* 설명 텍스트 */
+.section1-description {
+    font-size: 14pt;
+    font-weight: 100;
+    margin: 20px 10%;
+    color: rgba(255, 255, 255, 0.85); /* 흰색에 가까운 반투명 회색 */
+}
+
+/* CTA 버튼 */
+.section1-button {
+    padding: 10px 20px;
+    font-size: 12pt;
+    font-weight: 700;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* 섹션 2, 3은 기본만 정의 (추후 채움) */
+#section2 {
+}
+
+#section3 {
+}
+
+/* === 사이드 인디케이터 (점 버튼들) === */
+.indicator {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%); /* 수직 중앙 정렬 */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 2; /* 다른 요소 위에 표시 */
+}
+
+/* 개별 점 스타일 */
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+    opacity: 0.5; /* 기본 반투명 상태 */
+    transition: opacity 0.3s;
+}
+
+/* 현재 활성화된 점은 더 선명하게 표시 */
+.dot.active {
+    opacity: 1;
+}
