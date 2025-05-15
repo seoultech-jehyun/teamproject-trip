@@ -1,60 +1,9 @@
-/* === 전체 기본 스타일 초기화 === */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* HTML과 BODY 기본 설정 */
 html, body {
     height: 100%;
     overflow: hidden; /* 수직 스크롤 막기 (섹션 단위 스크롤을 위한 설정) */
     scroll-behavior: smooth;
     font-family: sans-serif;
-}
-
-/* === 헤더 영역 설정 === */
-header {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;
-    width: 100%;
-    z-index: 3; /* 다른 요소 위에 표시 */
-}
-
-/* 헤더 내부 컨테이너 정렬 */
-header div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 80%;
-    margin: 0 auto;
-    box-sizing: border-box;
-}
-
-/* 로고 또는 제목 텍스트 */
-header div h1 {
-    font-size: 20pt;
-    font-weight: 700;
-    color: white;
-}
-
-/* 네비게이션 링크 정렬 */
-header div nav {
-    width: 80%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-}
-
-/* 네비게이션 링크 스타일 */
-header div nav a {
-    margin: 0 20px;
-    text-decoration: none;
-    color: white;
-    font-size: 12pt;
-    font-weight: lighter;
 }
 
 /* === 공통 섹션 스타일 === */
@@ -132,7 +81,7 @@ section {
 }
 
 /* CTA 버튼 */
-.section1-button {
+.section1-a {
     padding: 10px 20px;
     font-size: 12pt;
     font-weight: 700;
@@ -140,6 +89,7 @@ section {
     border: 1px solid white;
     border-radius: 30px;
     cursor: pointer;
+    color: black;
 }
 
 /* 섹션 2, 3은 기본만 정의 (추후 채움) */

@@ -1,0 +1,130 @@
+h2, h3, h4 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 18pt;
+  font-weight: 500;
+}
+
+p {
+  font-size: 10pt;
+  font-weight: 100;
+}
+
+/* === 헤더 영역 설정 === */
+header {
+  border-bottom-style: solid;
+  border-width: 0.5px;
+  border-bottom-color: #00000030;
+}
+
+#detail_frame {
+  padding-top: 77px;
+}
+
+section {
+  margin: 20px auto;
+  width: 70%;
+}
+
+.header h1 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.gallery {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.gallery .main-photo {
+  flex: 2;
+  height: auto;
+  border-radius: 10px;
+  width: 70%;
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1;
+}
+
+.thumbnails img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.info-layout {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.info {
+  flex: 2;
+}
+
+.description, .booking, .host, .facility {
+  margin: 20px 0;
+}
+
+.booking {
+  flex: 1;
+  background-color: #f2f2f7;
+  padding: 20px;
+  border: 0;
+  border-radius: 10px;
+}
+
+.booking h3 {
+  font-size: 14pt;
+}
+
+.booking form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.booking form div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.booking input {
+  width: 100%;
+  padding: 0;
+  margin-top: 5px;
+  border: 0;
+  background-color: #ffffff00;
+  font-size: 10pt;
+  font-weight: bolder;
+}
+
+.booking button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #000;
+  color: white;
+  padding: 10px;
+  font-size: 12pt;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.booking button:hover {
+  background-color: #444;
+}

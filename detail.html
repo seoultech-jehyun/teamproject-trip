@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/detail.css"/>
+</head>
+<body>
+    <!-- ========================== 헤더 영역 ========================== -->
+    <header>
+        <div>
+            <h1>Tripsiec</h1> <!-- 사이트 로고 또는 제목 -->
+            <nav> <!-- 네비게이션 메뉴 -->
+                <a href="index.html">Home</a>
+                <a href="#">Services</a>
+                <a href="#">Promo</a>
+                <a href="#">About Us</a>
+            </nav>
+            <button></button>
+        </div>
+    </header>
+    
+    <div id="detail_frame">
+        <button>Back</button>
+    </div>
+
+    <!-- ========================== Section 1: 인트로 ========================== -->
+    <section class="header">
+        <h1>Villa Pinewood</h1>
+        <p>Italy · Private Villa · Max 8 Guests</p>
+    </section>
+
+    <!-- ========================== Section 1: 인트로 ========================== -->
+    <section class="main">
+        <div class="gallery">
+            <img src="images/home_bg0.jpg" alt="Main Room" class="main-photo" />
+            <div class="thumbnails">
+                <img src="images/home_bg1.jpg" alt="Room" />
+                <img src="images/home_bg2.jpg" alt="Kitchen" />
+                <img src="images/home_bg1.jpg" alt="Bathroom" />
+            </div>
+        </div>
+
+        <div class="info-layout">
+            <div class="info">
+                <div class="description">
+                    <h2>Description</h2>
+                    <p>
+                        Villa Pinewood is a spacious and elegant villa that offers a comfortable and relaxing stay for up to 8 guests.
+                        It features 4 bedrooms, 3 bathrooms, a fully-equipped kitchen, a living room, a dining room, and a private pool.
+                        The villa is located on a hilltop, overlooking the beautiful ocean and the lush greenery. It is the perfect place
+                        to enjoy the sunrise and the sunset, as well as the fresh breeze and the tranquil atmosphere.
+                    </p>
+                </div>
+                <div class="host">
+                    <h2>Hosted</h4>
+                    <p>Italia · 5 Years Hosting</p>
+                </div>
+
+                <div class="facility">
+                    <h2>Facility</h4>
+                    <p>🛏️ 4 Bedrooms &nbsp;&nbsp; 🛁 3 Bathrooms</p>
+                </div>
+            </div>
+
+            <div class="booking">
+                <h3>$100 <span>/night</span></h3>
+                <form id="bookingForm">
+                    <div>
+                        <label>Check In
+                            <input type="date" name="checkin" value="2025-01-01" required />
+                        </label>
+                        <label>Check Out
+                            <input type="date" name="checkout" value="2025-01-10" required />
+                        </label>
+                    </div>
+                    <label>Guests
+                        <input type="number" name="guests" value="1" min="1" max="8" />
+                    </label>
+                </form>
+                <button type="submit">Reserve</button>
+            </div>
+        </div>
+    </section>
+    <!-- JAVASCRIPT -->
+    <script src="js/detail.js"></script>
+</body>
+</html>
