@@ -1,0 +1,542 @@
+[
+  {
+    "id": 11,
+    "name": "해운대 해변",
+    "nick": "끝없이 펼쳐진 푸른 바다, 해운대",
+    "description": "대한민국 대표 해변으로, 여름철 피서객들이 가장 많이 찾는 곳입니다. 넓은 백사장과 시원한 바다, 그리고 주변의 고층 빌딩들이 어우러져 이국적인 풍경을 자아냅니다. 해마다 다양한 축제와 이벤트가 열리며, 동백섬과 아쿠아리움 등 주변 관광지와도 가깝습니다.",
+    "region": "부산광역시",
+    "main_attractions": [
+      {
+        "name": "해운대 해수욕장",
+        "description": "드넓은 백사장과 아름다운 해변 풍경을 자랑하는 대표적인 휴양지입니다."
+      },
+      {
+        "name": "동백섬",
+        "description": "해운대 해변 옆에 위치한 작은 섬으로, 산책로와 등대가 있습니다."
+      },
+      {
+        "name": "부산 아쿠아리움",
+        "description": "다양한 해양 생물을 만날 수 있는 대형 수족관입니다."
+      },
+      {
+        "name": "더베이101",
+        "description": "마린시티의 야경을 감상하며 식사와 음료를 즐길 수 있는 복합문화공간입니다."
+      }
+    ],
+    "image_url": "https://blog.kakaocdn.net/dn/b4D7GB/btsIUKz1A7T/RLnJrPK2YOklR7Om2AOlgK/img.jpg",
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1300000000/1301000000/1301010000.kto"
+  },
+  {
+    "id": 4,
+    "name": "북촌 한옥마을",
+    "nick": "북촌, 담장 따라 걷는 하루",
+    "description": "전통 한옥이 밀집된 곳으로, 옛 서울의 정취를 느낄 수 있는 골목길입니다. 과거 조선시대 양반들이 모여 살던 곳으로, 잘 보존된 한옥과 아름다운 골목길을 거닐며 시간 여행을 하는 듯한 기분을 느낄 수 있습니다. 한옥 체험, 전통 공방 방문 등 다양한 문화 체험이 가능합니다.",
+    "region": "서울특별시",
+    "main_attractions": [
+      {
+        "name": "북촌 8경",
+        "description": "한옥마을의 아름다움을 가장 잘 느낄 수 있는 8곳의 풍경 지점입니다."
+      },
+      {
+        "name": "가회동 31번지",
+        "description": "북촌 한옥마을의 대표적인 한옥 골목길로, 사진 촬영 명소로 유명합니다."
+      },
+      {
+        "name": "동림매듭박물관",
+        "description": "전통 매듭의 아름다움을 감상하고 체험할 수 있는 곳입니다."
+      },
+      {
+        "name": "북촌전통문화센터",
+        "description": "한옥마을에 대한 정보와 다양한 전통문화 강좌를 제공합니다."
+      }
+    ],
+    "image_url": "https://content.r9cdn.net/rimg/dimg/79/5c/2a4a56c0-lm-169100-169b609d730.jpg?width=1366&height=768&xhint=1937&yhint=1193&crop=true",
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201040000.kto"
+  },
+  {
+    "id": 14,
+    "name": "국제시장 & 깡통시장",
+    "nick": "없는 것 빼고 다 있는, 국제시장",
+    "description": "한국 전쟁 이후 형성된 시장으로, 없는 것 빼고 다 있다는 말이 있을 정도로 다양한 물건을 판매합니다. 특히 깡통시장(부평시장)은 야시장으로 유명하며, 다양한 길거리 음식과 이색적인 먹거리가 풍부합니다. 영화 '국제시장'의 배경이 된 곳이기도 합니다.",
+    "region": "부산광역시",
+    "main_attractions": [
+      {
+        "name": "국제시장",
+        "description": "의류, 잡화, 공산품 등 없는 것 빼고 다 있는 만물 시장입니다."
+      },
+      {
+        "name": "부평 깡통시장 야시장",
+        "description": "밤에 열리는 시장으로, 다양한 길거리 음식과 이색적인 먹거리가 가득합니다."
+      },
+      {
+        "name": "BIFF 거리",
+        "description": "부산 국제 영화제의 흔적을 느낄 수 있는 거리로, 씨앗호떡이 유명합니다."
+      },
+      {
+        "name": "먹자골목",
+        "description": "충무김밥, 비빔당면 등 부산의 향토 음식을 맛볼 수 있습니다."
+      }
+    ],
+    "image_url": "https://busan.grandculture.net/ImageView.aspx?fi=GC042P25126&t=middle&ext=jpg&iwm=1",
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1300000000/1301000000/1301040000.kto"
+  },
+  {
+    "id": 16,
+    "name": "성산일출봉",
+    "nick": "제주 동쪽의 웅장한 해돋이, 성산일출봉",
+    "description": "제주도의 대표적인 랜드마크이자 유네스코 세계자연유산으로, 거대한 분화구가 특징입니다. 해 뜨는 오름으로 유명하며, 정상에서 바라보는 일출과 주변 경관은 감탄을 자아냅니다. 해안가에서는 해녀 물질 공연을 볼 수 있습니다.",
+    "region": "제주특별자치도",
+    "main_attractions": [
+      {
+        "name": "정상 일출",
+        "description": "성산일출봉 정상에서 맞이하는 해돋이는 평생 잊지 못할 장관입니다."
+      },
+      {
+        "name": "분화구",
+        "description": "거대한 사발 모양의 분화구 내부를 관찰할 수 있습니다."
+      },
+      {
+        "name": "해녀의 집",
+        "description": "해안가에서 해녀들이 갓 잡은 해산물을 맛볼 수 있습니다."
+      },
+      {
+        "name": "물질 공연",
+        "description": "실제 해녀들의 물질 시연을 관람할 수 있습니다."
+      }
+    ],
+    "image_url": "https://t3.ftcdn.net/jpg/03/61/00/64/360_F_361006496_XzVmplD4aAXsyEQlRA2M6EdhPmL125QQ.jpg",
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1400000000/1401000000/1401010000.kto"
+  },
+  {
+    "id": 12,
+    "name": "감천문화마을",
+    "nick": "부산의 산토리니, 감천문화마을",
+    "description": "산비탈을 따라 계단식으로 형성된 집들이 다채로운 색을 띠고 있어 '부산의 산토리니'라고 불립니다. 골목길마다 예술 작품과 벽화가 가득하며, 마을 주민들이 직접 운영하는 상점과 카페들이 있어 독특한 분위기를 자아냅니다. 사진 찍기 좋은 명소로도 유명합니다.",
+    "region": "부산광역시",
+    "main_attractions": [
+      {
+        "name": "어린 왕자 포토존",
+        "description": "감천문화마을의 상징적인 포토존으로, 어린 왕자와 여우 조형물과 함께 사진을 찍을 수 있습니다."
+      },
+      {
+        "name": "하늘마루",
+        "description": "마을 전체를 조망할 수 있는 전망대입니다."
+      },
+      {
+        "name": "골목길 투어",
+        "description": "미로처럼 얽힌 골목길을 걸으며 숨겨진 예술 작품을 찾아보는 재미가 있습니다."
+      },
+      {
+        "name": "감천동 벽화",
+        "description": "마을 곳곳에 그려진 아기자기하고 특색 있는 벽화들을 감상할 수 있습니다."
+      }
+    ],
+    "image_url": "https://www.saha.go.kr/tour/images/sub/img_01_01_01.jpg",
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1300000000/1301000000/1301020000.kto"
+  },
+  {
+    "id": 17,
+    "name": "한라산",
+    "nick": "제주의 심장, 한라산 등반",
+    "description": "대한민국에서 가장 높은 산으로, 유네스코 세계자연유산이자 국립공원입니다. 빼어난 자연경관과 다양한 동식물이 서식하는 생태 보고입니다. 계절마다 다른 매력을 선사하며, 정상 백록담의 풍경은 특히 아름답습니다. 다양한 난이도의 등반 코스가 있습니다.",
+    "region": "제주특별자치도",
+    "main_attractions": [
+      {
+        "name": "백록담",
+        "description": "한라산 정상에 위치한 화산 분화구 호수로, 맑은 날에는 에메랄드빛 물을 볼 수 있습니다."
+      },
+      {
+        "name": "성판악 코스",
+        "description": "한라산 정상 백록담까지 갈 수 있는 가장 긴 등반 코스 중 하나입니다."
+      },
+      {
+        "name": "관음사 코스",
+        "description": "성판악보다 경사가 가파르지만, 계곡과 기암괴석 등 아름다운 풍경을 자랑합니다."
+      },
+      {
+        "name": "어리목 코스",
+        "description": "상대적으로 짧고 완만한 코스로, 윗세오름까지 이어집니다."
+      }
+    ],
+    "image_url": "https://www.phoenixmt.co.kr/data/tracking/2020/20200303_144542_f711a1c.jpg",
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1400000000/1401000000/1401020000.kto"
+  },
+  {
+    "id": 6,
+    "name": "롯데월드",
+    "nick": "동화 같은 하루, 롯데월드 데이트 브이로그",
+    "description": "서울 잠실에 위치한 대규모 테마파크로, 실내 어드벤처와 야외 매직아일랜드로 구성되어 있습니다. 다양한 어트랙션, 퍼레이드, 쇼 등이 펼쳐져 남녀노소 모두 즐길 수 있는 곳입니다. 아쿠아리움, 쇼핑몰, 호텔 등 복합 시설과 함께 즐길 수 있습니다.",
+    "region": "서울특별시",
+    "main_attractions": [
+      {
+        "name": "자이로드롭",
+        "description": "높은 곳에서 자유낙하하는 스릴 만점 어트랙션입니다."
+      },
+      {
+        "name": "아트란티스",
+        "description": "롤러코스터와 후룸라이드를 결합한 인기 어트랙션입니다."
+      },
+      {
+        "name": "신밧드의 모험",
+        "description": "보트를 타고 동화 속 세계를 탐험하는 어트랙션입니다."
+      },
+      {
+        "name": "롯데월드 아쿠아리움",
+        "description": "다양한 해양 생물을 만날 수 있는 대형 아쿠아리움입니다."
+      }
+    ],
+    "image_url": "https://static.hanatour.com/product/2023/06/01/0853q6upl9/default.png",
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201060000.kto"
+  },
+  {
+    "id": 18,
+    "name": "우도",
+    "nick": "소 등대가 지키는 섬, 우도",
+    "description": "제주 동쪽에 위치한 아름다운 섬으로, 소가 누워있는 듯한 모습이라고 하여 '우도'라고 불립니다. 에메랄드빛 바다와 독특한 해안 절경, 그리고 땅콩 아이스크림과 한라산 볶음밥 등 맛있는 먹거리가 유명합니다. 자전거, 스쿠터 등을 대여하여 섬 한 바퀴를 둘러볼 수 있습니다.",
+    "region": "제주특별자치도",
+    "main_attractions": [
+      {
+        "name": "서빈백사",
+        "description": "산호가 부서져 만들어진 하얀 해변으로, 에메랄드빛 바다가 인상적입니다."
+      },
+      {
+        "name": "검멀레 해변",
+        "description": "검은 모래와 주상절리가 어우러진 독특한 해변입니다."
+      },
+      {
+        "name": "우도봉",
+        "description": "우도에서 가장 높은 곳으로, 섬 전체와 성산일출봉을 조망할 수 있습니다."
+      },
+      {
+        "name": "땅콩 아이스크림",
+        "description": "우도에서만 맛볼 수 있는 특별한 땅콩 아이스크림입니다."
+      }
+    ],
+    "image_url": "https://api.cdn.visitjeju.net/photomng/imgpath/202109/30/431a0670-90ec-41d8-9837-c8662bc27121.jpg",
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1400000000/1401000000/1401030000.kto"
+  },
+  {
+    "id": 9,
+    "name": "강남",
+    "nick": "트렌드가 시작되는 곳, 강남",
+    "description": "서울의 대표적인 비즈니스 및 쇼핑의 중심지입니다. 높은 빌딩 숲과 활기찬 유동 인구를 자랑하며, 최신 트렌드를 선도하는 패션샵, 맛집, 카페, 클럽 등이 밀집해 있습니다. 밤문화와 쇼핑을 즐기기에 최적의 장소입니다.",
+    "region": "서울특별시",
+    "main_attractions": [
+      {
+        "name": "강남대로",
+        "description": "화려한 빌딩과 브랜드샵, 맛집이 즐비한 강남의 중심 도로입니다."
+      },
+      {
+        "name": "강남역 지하상가",
+        "description": "다양한 의류, 액세서리, 잡화 등을 저렴하게 구매할 수 있는 곳입니다."
+      },
+      {
+        "name": "CGV 강남",
+        "description": "대형 영화관으로, 최신 영화를 편안하게 관람할 수 있습니다."
+      },
+      {
+        "name": "선릉과 정릉",
+        "description": "도심 속에서 조선 왕릉의 고즈넉함을 느낄 수 있는 세계유산입니다."
+      }
+    ],
+    "image_url": "https://visitgangnam.net/wp-content/uploads/2025/04/%EA%B0%95%EB%82%A8%EC%8A%A4%ED%83%80%EC%9D%BC.jpg",
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201090000.kto"
+  },
+  {
+    "id": 13,
+    "name": "자갈치시장",
+    "nick": "싱싱한 바다의 맛, 자갈치시장",
+    "description": "부산을 대표하는 최대의 수산물 시장으로, '오이소 보이소 사이소'라는 정겨운 사투리가 특징입니다. 싱싱한 활어와 해산물이 가득하며, 즉석에서 회를 떠서 맛볼 수 있는 식당들이 즐비합니다. 부산 사람들의 삶과 활기를 느낄 수 있는 곳입니다.",
+    "region": "부산광역시",
+    "main_attractions": [
+      {
+        "name": "활어 판매대",
+        "description": "갓 잡은 싱싱한 활어를 직접 고르고 흥정하는 재미가 있습니다."
+      },
+      {
+        "name": "회센터",
+        "description": "고른 활어를 바로 손질하여 식당에서 맛볼 수 있습니다."
+      },
+      {
+        "name": "건어물 골목",
+        "description": "다양한 종류의 건어물을 판매하며, 부산 특산품을 구매할 수 있습니다."
+      },
+      {
+        "name": "자갈치시장 전망대",
+        "description": "시장 건물 옥상에서 부산항과 영도대교를 조망할 수 있습니다."
+      }
+    ],
+    "image_url": "https://cloudfront-ap-northeast-1.images.arcpublishing.com/chosunbiz/UIG6XGROSAN75CX6XJPZFWFASE.jpg",
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1300000000/1301000000/1301030000.kto"
+  },
+  {
+    "id": 19,
+    "name": "협재 해수욕장",
+    "nick": "투명한 물빛, 협재 해변에서 즐기는 하루",
+    "description": "제주 서쪽에 위치한 아름다운 해변으로, 에메랄드빛 투명한 바다와 고운 백사장이 특징입니다. 비양도가 보이는 풍경은 그림 같은 아름다움을 선사합니다. 수심이 얕고 파도가 잔잔하여 가족 단위 피서객들에게 인기가 많으며, 캠핑과 수상 레저를 즐기기 좋습니다.",
+    "region": "제주특별자치도",
+    "main_attractions": [
+      {
+        "name": "협재 해수욕장",
+        "description": "투명한 에메랄드빛 바다와 하얀 모래사장, 그리고 비양도 풍경이 어우러진 해변입니다."
+      },
+      {
+        "name": "비양도",
+        "description": "협재 해수욕장 앞에 떠 있는 작은 섬으로, 배를 타고 들어갈 수 있습니다."
+      },
+      {
+        "name": "금능 해수욕장",
+        "description": "협재 해수욕장과 이어져 있는 또 다른 아름다운 해변입니다."
+      },
+      {
+        "name": "야자수 숲길",
+        "description": "해변을 따라 조성된 야자수 길에서 이국적인 분위기를 느낄 수 있습니다."
+      }
+    ],
+    "image_url": "https://tong.visitkorea.or.kr/cms/resource/66/3096066_image2_1.jpg",
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1400000000/1401000000/1401040000.kto"
+  },
+  {
+    "id": 20,
+    "name": "동백포레스트",
+    "nick": "동백꽃 가득한 비밀의 숲, 동백포레스트",
+    "description": "제주 서귀포시에 위치한 동백꽃 명소로, 겨울부터 봄까지 아름다운 동백꽃이 만개합니다. 사진 찍기 좋은 스팟들이 많아 인생샷을 남기기에 좋으며, 아늑한 카페에서 동백꽃을 감상하며 휴식을 취할 수 있습니다. 동백꽃 외에도 다양한 꽃과 식물이 계절마다 아름다운 풍경을 선사합니다.",
+    "region": "제주특별자치도",
+    "main_attractions": [
+      {
+        "name": "동백꽃 숲길",
+        "description": "빼곡히 들어선 동백나무 사이로 아름다운 숲길이 조성되어 있습니다."
+      },
+      {
+        "name": "인생샷 포토존",
+        "description": "동백꽃을 배경으로 다양한 포토존이 마련되어 있습니다."
+      },
+      {
+        "name": "카페",
+        "description": "따뜻한 음료를 마시며 동백꽃을 감상할 수 있는 아늑한 카페입니다."
+      },
+      {
+        "name": "계절 꽃밭",
+        "description": "동백꽃 외에도 계절마다 다른 꽃들이 피어나 아름다움을 더합니다."
+      }
+    ],
+    "image_url": "https://media.triple.guide/triple-cms/c_limit,f_auto,h_1024,w_1024/133ecfbd-b64f-4216-986d-49383e6aadab.jpeg",
+    "more_info_link": "https://blog.naver.com/jejutourlist/222956276800"
+  },
+  {
+    "id": 5,
+    "name": "동대문 디자인플라자 (DDP)",
+    "nick": "패션과 디자인의 교차점, DDP",
+    "description": "세계적인 건축가 자하 하디드가 설계한 독특한 비정형 건축물로, 서울의 랜드마크 중 하나입니다. 디자인, 패션, 예술이 융합된 복합문화공간으로, 다양한 전시회, 패션쇼, 컨퍼런스 등이 개최됩니다. 밤에는 LED 장미 정원이 아름답게 빛나 야경 명소로도 인기가 많습니다.",
+    "region": "서울특별시",
+    "main_attractions": [
+      {
+        "name": "디자인 박물관",
+        "description": "한국과 세계의 디자인 흐름을 보여주는 전시가 열립니다."
+      },
+      {
+        "name": "디자인샵",
+        "description": "독특하고 창의적인 디자인 제품을 구매할 수 있습니다."
+      },
+      {
+        "name": "어울림 광장",
+        "description": "다양한 행사와 마켓이 열리는 열린 공간입니다."
+      },
+      {
+        "name": "LED 장미정원",
+        "description": "수많은 LED 장미 조명이 로맨틱한 분위기를 연출합니다."
+      }
+    ],
+    "image_url": "https://bbkk.kr/d/t/3/338_%EB%A9%94%EC%9D%B8%EC%82%AC%EC%A7%84.jpg",
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201050000.kto"
+  },
+  {
+    "id": 1,
+    "name": "경복궁",
+    "nick": "시간을 걷는 궁궐, 경복궁",
+    "description": "조선 왕조의 법궁으로, 아름다운 건축미와 역사적 가치를 지닌 대표적인 고궁입니다. 왕의 집무 공간, 침전, 대비전 등 다양한 건물과 아름다운 정원, 그리고 근정전과 광화문 등의 웅장한 모습을 볼 수 있습니다. 한복을 입고 방문하면 더욱 특별한 경험을 할 수 있습니다.",
+    "region": "서울특별시",
+    "main_attractions": [
+      {
+        "name": "광화문",
+        "description": "경복궁의 정문이자 서울의 상징적인 문입니다. 수문장 교대식을 관람할 수 있습니다."
+      },
+      {
+        "name": "근정전",
+        "description": "왕의 즉위식, 외국 사신 접견 등 국가의 중요한 의식이 거행되던 곳입니다."
+      },
+      {
+        "name": "경회루",
+        "description": "연못 위에 지어진 누각으로, 왕실 연회 장소로 사용되었으며 아름다운 풍경을 자랑합니다."
+      },
+      {
+        "name": "향원정",
+        "description": "궁궐 후원의 작은 연못 가운데 섬에 지어진 육각형 정자로, 고즈넉한 아름다움을 느낄 수 있습니다."
+      }
+    ],
+    "image_url": "https://media.istockphoto.com/id/509661920/ko/%EC%82%AC%EC%A7%84/%EA%B2%BD%EB%B3%B5%EA%B6%81-twilight-%EC%84%A0%EC%85%8B.jpg?s=612x612&w=0&k=20&c=RpWgDibSJkx4ENiU5L2P4JbLtlu0HmmSbkl5dqPeZM0=",
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201010000.kto"
+  },
+  {
+    "id": 15,
+    "name": "다대포 해변공원",
+    "nick": "노을이 아름다운 생태 공원, 다대포",
+    "description": "부산 서남쪽에 위치한 넓은 해변과 생태 공원입니다. 세계 최대 규모의 바닥분수 '다대포 꿈의 낙조분수'로 유명하며, 아름다운 일몰을 감상하기에 최적의 장소입니다. 갯벌 체험, 해변 산책 등 다양한 자연 친화적인 활동을 즐길 수 있습니다.",
+    "region": "부산광역시",
+    "main_attractions": [
+      {
+        "name": "다대포 꿈의 낙조분수",
+        "description": "세계 최대 규모의 바닥분수로, 화려한 조명과 음악 분수쇼가 펼쳐집니다."
+      },
+      {
+        "name": "생명의 강",
+        "description": "해변으로 흐르는 하천으로, 다양한 생물이 서식하는 생태 학습장입니다."
+      },
+      {
+        "name": "다대포 몰운대",
+        "description": "해송이 우거진 작은 산으로, 아름다운 해안 절경을 감상할 수 있습니다."
+      },
+      {
+        "name": "노을 감상",
+        "description": "수평선 너머로 지는 아름다운 일몰을 감상할 수 있는 명소입니다."
+      }
+    ],
+    "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res40/247000/247082-Dadaepo-Beach.jpg",
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1300000000/1301000000/1301050000.kto"
+  },
+  {
+    "id": 3,
+    "name": "명동",
+    "nick": "명동 먹방 투어: 길거리 음식 끝판왕",
+    "description": "쇼핑, 먹거리, 문화가 어우러진 서울의 대표적인 번화가입니다. 국내외 최신 트렌드를 반영한 다양한 패션 브랜드, 화장품 로드샵, 백화점 등이 밀집해 있어 쇼핑의 천국이라 불립니다. 길거리 음식과 맛집도 풍부하여 미식의 즐거움을 더합니다.",
+    "region": "서울특별시",
+    "main_attractions": [
+      {
+        "name": "명동성당",
+        "description": "아름다운 고딕 양식의 건물로, 한국 천주교의 상징적인 장소입니다."
+      },
+      {
+        "name": "명동예술극장",
+        "description": "다양한 연극과 공연이 펼쳐지는 문화 예술 공간입니다."
+      },
+      {
+        "name": "명동 길거리 음식",
+        "description": "떡볶이, 김밥, 어묵 등 다양한 한국 길거리 음식을 맛볼 수 있습니다."
+      },
+      {
+        "name": "롯데백화점 본점",
+        "description": "명동에 위치한 대형 백화점으로, 다양한 쇼핑 경험을 제공합니다."
+      }
+    ],
+    "image_url": "https://cdn.womaneconomy.co.kr/news/photo/202406/224204_433936_4952.jpg",
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201030000.kto"
+  },
+  {
+    "id": 7,
+    "name": "이태원",
+    "nick": "밤이 되면 시작되는 이태원의 매력",
+    "description": "다양한 국적의 사람들이 모여 사는 서울의 국제적인 거리입니다. 이국적인 레스토랑, 바, 상점들이 즐비하며, 다양한 문화와 개성을 느낄 수 있습니다. 앤티크 가구 거리와 독특한 패션샵들이 인기를 끄는 곳입니다.",
+    "region": "서울특별시",
+    "main_attractions": [
+      {
+        "name": "경리단길",
+        "description": "트렌디한 카페와 레스토랑이 많은 골목길입니다."
+      },
+      {
+        "name": "이태원 세계음식거리",
+        "description": "다양한 국가의 음식을 맛볼 수 있는 곳입니다."
+      },
+      {
+        "name": "앤티크 가구 거리",
+        "description": "빈티지하고 독특한 가구와 소품을 구경할 수 있습니다."
+      },
+      {
+        "name": "이슬람 사원",
+        "description": "이태원의 이국적인 분위기를 더하는 이슬람 문화의 중심지입니다."
+      }
+    ],
+    "image_url": "https://img.khan.co.kr/news/2022/10/30/news-p.v1.20221030.4388fb51c280420796d30bc6242fcfe5_P1.png",
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201070000.kto"
+  },
+  {
+    "id": 10,
+    "name": "청계천",
+    "nick": "청계천에서 만난 도심 속 자연",
+    "description": "서울 도심을 가로지르는 인공 개천으로, 시민들의 휴식 공간이자 도심 속 자연을 느낄 수 있는 곳입니다. 복원된 청계천을 따라 산책을 즐기거나, 다양한 예술 작품과 다리들을 감상할 수 있습니다. 밤에는 조명이 아름답게 빛나 데이트 코스로도 인기가 많습니다.",
+    "region": "서울특별시",
+    "main_attractions": [
+      {
+        "name": "광화문 광장",
+        "description": "청계천 시작점에 위치하며, 이순신 장군 동상과 세종대왕 동상을 볼 수 있습니다."
+      },
+      {
+        "name": "청계광장",
+        "description": "청계천의 발원지이자 다양한 행사와 축제가 열리는 공간입니다."
+      },
+      {
+        "name": "벽천",
+        "description": "시작점에서 흐르는 폭포수로, 시원한 분위기를 연출합니다."
+      },
+      {
+        "name": "다리 미술관",
+        "description": "청계천 다리 아래에 조성된 작은 갤러리로, 다양한 전시를 볼 수 있습니다."
+      }
+    ],
+    "image_url": "https://mediahub.seoul.go.kr/uploads/mediahub/2022/08/gAlWJGXGNDYOAhIqfwpniAOxkmgqqbpM.png",
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201100000.kto"
+  },
+  {
+    "id": 8,
+    "name": "홍대",
+    "nick": "음악과 예술이 흐르는 거리, 홍대",
+    "description": "젊음과 예술의 거리로 유명한 홍대 지역은 독특한 카페, 클럽, 옷가게, 소규모 갤러리 등이 밀집해 있습니다. 자유롭고 활기찬 분위기 속에서 인디 음악 공연, 버스킹 등 다양한 문화 행사를 즐길 수 있으며, 개성 넘치는 벽화와 스트리트 아트도 볼거리입니다.",
+    "region": "서울특별시",
+    "main_attractions": [
+      {
+        "name": "걷고 싶은 거리",
+        "description": "다양한 상점과 공연, 이벤트가 열리는 홍대의 중심 거리입니다."
+      },
+      {
+        "name": "KT&G 상상마당",
+        "description": "영화관, 갤러리, 라이브홀 등을 갖춘 복합문화공간입니다."
+      },
+      {
+        "name": "홍대 벽화거리",
+        "description": "개성 넘치는 그래피티와 벽화가 그려진 골목길입니다."
+      },
+      {
+        "name": "플리마켓",
+        "description": "주말에 열리는 작은 시장에서 독특한 수공예품을 구경할 수 있습니다."
+      }
+    ],
+    "image_url": "https://mblogthumb-phinf.pstatic.net/MjAyNDA0MDVfMjE3/MDAxNzEyMzE3OTM2ODEy.iTK7fTpDoVllga6FzRTwlEx3D3_jPKwEoNsd7V4bdGIg.H19PqBojqaSWq0OcpOuVzWFe_QXg4c_swz7vofBZK58g.JPEG/20240405%EF%BC%BF190849.jpg?type=w800",
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201080000.kto"
+  },
+  {
+    "id": 2,
+    "name": "남산타워 (N서울타워)",
+    "nick": "서울을 한눈에, N서울타워",
+    "description": "서울의 상징이자 야경 명소로, 도심의 멋진 전경을 한눈에 감상할 수 있습니다. 맑은 날에는 인천 앞바다와 북한산까지 조망할 수 있으며, 연인들의 사랑의 자물쇠 명소로도 유명합니다. 타워 내부에는 전망대, 레스토랑, 기념품샵 등이 있습니다.",
+    "region": "서울특별시",
+    "main_attractions": [
+      {
+        "name": "전망대",
+        "description": "서울 시내를 360도로 조망할 수 있는 곳입니다."
+      },
+      {
+        "name": "사랑의 자물쇠",
+        "description": "수많은 연인들이 사랑을 맹세하며 자물쇠를 걸어놓는 명소입니다."
+      },
+      {
+        "name": "남산 케이블카",
+        "description": "남산 중턱에서 타워까지 편리하게 이동할 수 있는 수단입니다."
+      },
+      {
+        "name": "남산공원",
+        "description": "타워 주변으로 산책로와 녹지가 잘 조성된 도심 속 휴식 공간입니다."
+      }
+    ],
+    "image_url": "https://www.agoda.com/wp-content/uploads/2024/08/Namsan-Tower-during-autumn-in-Seoul-South-Korea-1244x700.jpg",
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201020000.kto"
+  }
+]

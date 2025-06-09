@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'GmarketSans';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: 300; /* Light */
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSans';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSans';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0; /* body의 기본 여백을 제거하여 전체 너비를 활용합니다. */
+    font-family: 'GmarketSans'; /* 예시 글꼴 */
+}
+
+.section1 {
+    background-color: #98b8fe;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.header-title {
+    width: 1200px;
+    padding: 15px 0;
+    margin: 0 auto;
+    color: #000;
+    font-size: 18pt;
+    font-weight: 300;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.content {
+    position: absolute;
+    margin-left: calc(50% - 600px);
+    display: flex;
+    align-items: flex-start; /* Align items to the start of the cross axis (top) */
+    gap: 50px; /* Space between h2 and item-container */
+    position: relative; /* Needed for blur overlay positioning */
+    z-index: 10;
+    margin-top: 50px;
+}
+
+.content h2 {
+    flex-shrink: 0; /* Prevent h2 from shrinking */
+    width: 320px; /* Allocate specific width for h2 */
+    font-size: 2em;
+    color: #333;
+    margin-top: 220px;
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    position: relative;
+}
+
+.content a {
+    position: absolute;
+    top: 320px;
+    left: 0;
+    font-size: 12pt;
+    color: #666;
+}
+
+/* Project 가로 스크롤 가능한 그리드 컨테이너 */
+.horizontal-scroll-grid-container {
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 0 50px;
+    padding: 0 50px;
+    padding: 50px;
+
+    /* 스크롤바 숨기기 (선택 사항: 보이지 않지만 스크롤은 가능) */
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    scrollbar-width: none;
+
+    /* ★★★ 가로 스크롤 양쪽 끝에 블러 처리 핵심 코드 ★★★ */
+    /* 마스크 이미지로 가려지는 부분에 투명도를 조절하여 블러 효과를 냅니다. */
+    mask-image: linear-gradient(
+        to right,
+        transparent,        /* 왼쪽 시작점: 완전 투명 */
+        black 0,         /* 20px 이후부터 불투명해짐 */
+        black calc(100% - 0), /* 오른쪽 끝에서 20px 전까지 불투명 */
+        transparent         /* 오른쪽 끝점: 완전 투명 */
+    );
+    -webkit-mask-image: linear-gradient( /* 웹킷 브라우저를 위한 접두사 */
+        to right,
+        transparent,
+        black 0,
+        black calc(100% - 0),
+        transparent
+    );
+}
+
+/* 개별 그리드 아이템 스타일 */
+.grid-item {
+    scroll-snap-align: start;
+    width: auto;
+    height: auto;
+    background-color: #555;
+    transition: all 0.3s ease; /* 부드러운 전환 효과 추가 */
+    scroll-snap-align: start;
+    /* transition은 이제 ::after로 옮겨집니다. */
+    position: relative; /* ★ 가상 요소의 absolute 배치를 위한 기준 */
+    overflow: hidden; /* ★ 이미지나 다른 내용이 둥근 모서리 밖으로 넘어가지 않도록 */
+    /* 기존 box-shadow는 ::after로 옮겨집니다. */
+    display: flex;         /* Flexbox 컨테이너로 설정 */
+    flex-direction: column;  /* 아이템들을 세로(열) 방향으로 배치 */
+    justify-content: flex-start; /* 콘텐츠를 상단부터 배치 */
+}
+
+
+/* 이미지 컨테이너 스타일 ---------------------------------------------------- */
+.animate-bounce-container {
+    position: absolute; /* hero-section을 기준으로 절대 위치 지정 */
+    bottom: 20px;       /* hero-section의 바닥에서 20px 위로 떨어뜨림 */
+    left: 50%;          /* hero-section의 가로 중앙에 위치 */
+    transform: translateX(-50%); /* 정확한 가로 중앙 정렬 */
+    z-index: 10;        /* 다른 요소 위에 표시되도록 z-index 설정 (필요시) */
+    /* 기존 이미지 세로 정렬 및 간격, 바운스 애니메이션 관련 스타일은 그대로 유지 */
+    animation: bounce 1s infinite ease-in-out; /* 바운스 애니메이션 적용 */
+    display: flex; /* Flexbox 활성화 */
+    flex-direction: column; /* Flex 아이템들을 세로(열) 방향으로 정렬 */
+}
+
+.animate-bounce-container img {
+    bottom: 20px;       /* hero-section의 바닥에서 20px 위로 떨어뜨림 */
+    width: 24px;  /* 가로 28px */
+    height: 24px; /* 세로 16px */
+    margin-top: -5px;
+}
+
+.animate-bounce-container img:nth-child(2) {
+    animation-delay: 0.2s; /* 0.2초 늦게 시작 */
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0); /* 시작과 끝은 제자리 */
+    }
+    50% {
+        transform: translateY(-5px); /* 중간에 5px 위로 이동 */
+    }
+}
+/* 이미지 컨테이너 스타일 ---------------------------------------------------- */
+
+.section2 {
+
+}
