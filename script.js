@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         currentNameElement.textContent = itemData.nick;
         // --- Modify the detail link's href to include data ---
         // Pass the item ID as a URL parameter
-        detailLinkElement.href = `detail.html?id=${itemData.id}`;
+        detailLinkElement.href = `detail/detail.html?id=${itemData.id}`;
         // Optionally, you could pass other specific data if needed, e.g.,
         // detailLinkElement.href = `detail.html?id=${itemData.id}&name=${encodeURIComponent(itemData.nick)}`;
         // For more complex data, passing just the ID is usually better, and detail.html fetches details.
