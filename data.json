@@ -24,7 +24,9 @@
       }
     ],
     "image_url": "https://blog.kakaocdn.net/dn/b4D7GB/btsIUKz1A7T/RLnJrPK2YOklR7Om2AOlgK/img.jpg",
-    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1300000000/1301000000/1301010000.kto"
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1300000000/1301000000/1301010000.kto",
+    "lat": 35.160759,
+    "lng": 129.161706
   },
   {
     "id": 4,
@@ -51,7 +53,9 @@
       }
     ],
     "image_url": "https://content.r9cdn.net/rimg/dimg/79/5c/2a4a56c0-lm-169100-169b609d730.jpg?width=1366&height=768&xhint=1937&yhint=1193&crop=true",
-    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201040000.kto"
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201040000.kto",
+    "lat": 37.582601,
+    "lng": 126.983794
   },
   {
     "id": 14,
@@ -78,7 +82,9 @@
       }
     ],
     "image_url": "https://busan.grandculture.net/ImageView.aspx?fi=GC042P25126&t=middle&ext=jpg&iwm=1",
-    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1300000000/1301000000/1301040000.kto"
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1300000000/1301000000/1301040000.kto",
+    "lat": 35.101736,
+    "lng": 129.02553
   },
   {
     "id": 16,
@@ -105,7 +111,9 @@
       }
     ],
     "image_url": "https://t3.ftcdn.net/jpg/03/61/00/64/360_F_361006496_XzVmplD4aAXsyEQlRA2M6EdhPmL125QQ.jpg",
-    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1400000000/1401000000/1401010000.kto"
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1400000000/1401000000/1401010000.kto",
+    "lat": 33.462719,
+    "lng": 126.93664
   },
   {
     "id": 12,
@@ -132,7 +140,9 @@
       }
     ],
     "image_url": "https://www.saha.go.kr/tour/images/sub/img_01_01_01.jpg",
-    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1300000000/1301000000/1301020000.kto"
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1300000000/1301000000/1301020000.kto",
+    "lat": 35.097495,
+    "lng": 129.027003
   },
   {
     "id": 17,
@@ -159,7 +169,9 @@
       }
     ],
     "image_url": "https://www.phoenixmt.co.kr/data/tracking/2020/20200303_144542_f711a1c.jpg",
-    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1400000000/1401000000/1401020000.kto"
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1400000000/1401000000/1401020000.kto",
+    "lat": 33.361665,
+    "lng": 126.529241
   },
   {
     "id": 6,
@@ -186,7 +198,9 @@
       }
     ],
     "image_url": "https://static.hanatour.com/product/2023/06/01/0853q6upl9/default.png",
-    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201060000.kto"
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201060000.kto",
+    "lat": 37.511394,
+    "lng": 127.098255
   },
   {
     "id": 18,
@@ -213,7 +227,9 @@
       }
     ],
     "image_url": "https://api.cdn.visitjeju.net/photomng/imgpath/202109/30/431a0670-90ec-41d8-9837-c8662bc27121.jpg",
-    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1400000000/1401000000/1401030000.kto"
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1400000000/1401000000/1401030000.kto",
+    "lat": 33.50428,
+    "lng": 126.94589
   },
   {
     "id": 9,
@@ -240,7 +256,9 @@
       }
     ],
     "image_url": "https://visitgangnam.net/wp-content/uploads/2025/04/%EA%B0%95%EB%82%A8%EC%8A%A4%ED%83%80%EC%9D%BC.jpg",
-    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201090000.kto"
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201090000.kto",
+    "lat": 37.49814,
+    "lng": 127.027613
   },
   {
     "id": 13,
@@ -267,7 +285,9 @@
       }
     ],
     "image_url": "https://cloudfront-ap-northeast-1.images.arcpublishing.com/chosunbiz/UIG6XGROSAN75CX6XJPZFWFASE.jpg",
-    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1300000000/1301000000/1301030000.kto"
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1300000000/1301000000/1301030000.kto",
+    "lat": 35.094595,
+    "lng": 129.027003
   },
   {
     "id": 19,
@@ -294,7 +314,9 @@
       }
     ],
     "image_url": "https://tong.visitkorea.or.kr/cms/resource/66/3096066_image2_1.jpg",
-    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1400000000/1401000000/1401040000.kto"
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1400000000/1401000000/1401040000.kto",
+    "lat": 33.407673,
+    "lng": 126.238466
   },
   {
     "id": 20,
@@ -321,7 +343,9 @@
       }
     ],
     "image_url": "https://media.triple.guide/triple-cms/c_limit,f_auto,h_1024,w_1024/133ecfbd-b64f-4216-986d-49383e6aadab.jpeg",
-    "more_info_link": "https://blog.naver.com/jejutourlist/222956276800"
+    "more_info_link": "https://blog.naver.com/jejutourlist/222956276800",
+    "lat": 33.324203,
+    "lng": 126.657519
   },
   {
     "id": 5,
@@ -348,7 +372,9 @@
       }
     ],
     "image_url": "https://bbkk.kr/d/t/3/338_%EB%A9%94%EC%9D%B8%EC%82%AC%EC%A7%84.jpg",
-    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201050000.kto"
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201050000.kto",
+    "lat": 37.566673,
+    "lng": 127.009491
   },
   {
     "id": 1,
@@ -375,7 +401,9 @@
       }
     ],
     "image_url": "https://media.istockphoto.com/id/509661920/ko/%EC%82%AC%EC%A7%84/%EA%B2%BD%EB%B3%B5%EA%B6%81-twilight-%EC%84%A0%EC%85%8B.jpg?s=612x612&w=0&k=20&c=RpWgDibSJkx4ENiU5L2P4JbLtlu0HmmSbkl5dqPeZM0=",
-    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201010000.kto"
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201010000.kto",
+    "lat": 37.579617,
+    "lng": 126.977041
   },
   {
     "id": 15,
@@ -402,7 +430,9 @@
       }
     ],
     "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res40/247000/247082-Dadaepo-Beach.jpg",
-    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1300000000/1301000000/1301050000.kto"
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1300000000/1301000000/1301050000.kto",
+    "lat": 35.05943,
+    "lng": 128.97495
   },
   {
     "id": 3,
@@ -429,7 +459,9 @@
       }
     ],
     "image_url": "https://cdn.womaneconomy.co.kr/news/photo/202406/224204_433936_4952.jpg",
-    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201030000.kto"
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201030000.kto",
+    "lat": 37.561036,
+    "lng": 126.985955
   },
   {
     "id": 7,
@@ -456,7 +488,9 @@
       }
     ],
     "image_url": "https://img.khan.co.kr/news/2022/10/30/news-p.v1.20221030.4388fb51c280420796d30bc6242fcfe5_P1.png",
-    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201070000.kto"
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201070000.kto",
+    "lat": 37.534882,
+    "lng": 126.993077
   },
   {
     "id": 10,
@@ -483,7 +517,9 @@
       }
     ],
     "image_url": "https://mediahub.seoul.go.kr/uploads/mediahub/2022/08/gAlWJGXGNDYOAhIqfwpniAOxkmgqqbpM.png",
-    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201100000.kto"
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201100000.kto",
+    "lat": 37.569566,
+    "lng": 126.977265
   },
   {
     "id": 8,
@@ -509,8 +545,10 @@
         "description": "주말에 열리는 작은 시장에서 독특한 수공예품을 구경할 수 있습니다."
       }
     ],
-    "image_url": "https://mblogthumb-phinf.pstatic.net/MjAyNDA0MDVfMjE3/MDAxNzEyMzE3OTM2ODEy.iTK7fTpDoVllga6FzRTwlEx3D3_jPKwEoNsd7V4bdGIg.H19PqBojqaSWq0OcpOuVzWFe_QXg4c_swz7vofBZK58g.JPEG/20240405%EF%BC%BF190849.jpg?type=w800",
-    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201080000.kto"
+    "image_url": "https://mblogthumb-phinf.pstatic.net/MjAyNDA0MDVfMjE3/MDAxNzEyMzE3OTM2ODEy.iTK7fTpDoVllga6FzRTwlEx3D3_jPKkEoNsd7V4bdGIg.H19PqBojqaSWq0OcpOuVzWFe_QXg4c_swz7vofBZK58g.JPEG/20240405%EF%BC%BF190849.jpg?type=w800",
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201080000.kto",
+    "lat": 37.557526,
+    "lng": 126.924617
   },
   {
     "id": 2,
@@ -537,6 +575,8 @@
       }
     ],
     "image_url": "https://www.agoda.com/wp-content/uploads/2024/08/Namsan-Tower-during-autumn-in-Seoul-South-Korea-1244x700.jpg",
-    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201020000.kto"
+    "more_info_link": "https://kto.visitkorea.or.kr/kor/attractions/1000000000/1100000000/1200000000/1201000000/1201020000.kto",
+    "lat": 37.551219,
+    "lng": 126.988226
   }
 ]
